@@ -9,23 +9,34 @@
 /* Begin PBXBuildFile section */
 		11EB662B28B77D450052FB05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EB662A28B77D450052FB05 /* AppDelegate.swift */; };
 		11EB662D28B77D450052FB05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EB662C28B77D450052FB05 /* SceneDelegate.swift */; };
-		11EB662F28B77D450052FB05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EB662E28B77D450052FB05 /* ViewController.swift */; };
+		11EB662F28B77D450052FB05 /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EB662E28B77D450052FB05 /* NewsFeedViewController.swift */; };
 		11EB663228B77D450052FB05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11EB663028B77D450052FB05 /* Main.storyboard */; };
 		11EB663528B77D450052FB05 /* NewsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11EB663328B77D450052FB05 /* NewsApp.xcdatamodeld */; };
 		11EB663728B77D490052FB05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11EB663628B77D490052FB05 /* Assets.xcassets */; };
 		11EB663A28B77D490052FB05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11EB663828B77D490052FB05 /* LaunchScreen.storyboard */; };
+		11EB664828B7809D0052FB05 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EB664728B7809D0052FB05 /* NewsTableViewCell.swift */; };
+		11EB664A28B785AC0052FB05 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EB664928B785AC0052FB05 /* NetworkManager.swift */; };
+		11EB664C28B786830052FB05 /* NewsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EB664B28B786830052FB05 /* NewsItem.swift */; };
+		11EB664F28B78AC40052FB05 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 11EB664E28B78AC40052FB05 /* SDWebImage */; };
+		11EB665128B7968D0052FB05 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EB665028B7968D0052FB05 /* DetailViewController.swift */; };
+		11EB665328B79C460052FB05 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EB665228B79C460052FB05 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11EB662728B77D450052FB05 /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11EB662A28B77D450052FB05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11EB662C28B77D450052FB05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		11EB662E28B77D450052FB05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11EB662E28B77D450052FB05 /* NewsFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
 		11EB663128B77D450052FB05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11EB663428B77D450052FB05 /* NewsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NewsApp.xcdatamodel; sourceTree = "<group>"; };
 		11EB663628B77D490052FB05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11EB663928B77D490052FB05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11EB663B28B77D490052FB05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11EB664728B7809D0052FB05 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		11EB664928B785AC0052FB05 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		11EB664B28B786830052FB05 /* NewsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsItem.swift; sourceTree = "<group>"; };
+		11EB665028B7968D0052FB05 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		11EB665228B79C460052FB05 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11EB664F28B78AC40052FB05 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +70,69 @@
 		11EB662928B77D450052FB05 /* NewsApp */ = {
 			isa = PBXGroup;
 			children = (
-				11EB662A28B77D450052FB05 /* AppDelegate.swift */,
-				11EB662C28B77D450052FB05 /* SceneDelegate.swift */,
-				11EB662E28B77D450052FB05 /* ViewController.swift */,
-				11EB663028B77D450052FB05 /* Main.storyboard */,
-				11EB663628B77D490052FB05 /* Assets.xcassets */,
-				11EB663828B77D490052FB05 /* LaunchScreen.storyboard */,
+				11EB664628B77E010052FB05 /* Helper */,
+				11EB664528B77DCB0052FB05 /* Extension */,
+				11EB664428B77DBB0052FB05 /* Model */,
+				11EB664128B77D680052FB05 /* AppDelegate */,
+				11EB664228B77D750052FB05 /* ViewController */,
+				11EB664328B77D880052FB05 /* View */,
 				11EB663B28B77D490052FB05 /* Info.plist */,
+				11EB663628B77D490052FB05 /* Assets.xcassets */,
 				11EB663328B77D450052FB05 /* NewsApp.xcdatamodeld */,
 			);
 			path = NewsApp;
+			sourceTree = "<group>";
+		};
+		11EB664128B77D680052FB05 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				11EB662A28B77D450052FB05 /* AppDelegate.swift */,
+				11EB662C28B77D450052FB05 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		11EB664228B77D750052FB05 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				11EB662E28B77D450052FB05 /* NewsFeedViewController.swift */,
+				11EB664728B7809D0052FB05 /* NewsTableViewCell.swift */,
+				11EB665028B7968D0052FB05 /* DetailViewController.swift */,
+				11EB665228B79C460052FB05 /* WebViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		11EB664328B77D880052FB05 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11EB663028B77D450052FB05 /* Main.storyboard */,
+				11EB663828B77D490052FB05 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		11EB664428B77DBB0052FB05 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11EB664B28B786830052FB05 /* NewsItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		11EB664528B77DCB0052FB05 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		11EB664628B77E010052FB05 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				11EB664928B785AC0052FB05 /* NetworkManager.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +151,9 @@
 			dependencies = (
 			);
 			name = NewsApp;
+			packageProductDependencies = (
+				11EB664E28B78AC40052FB05 /* SDWebImage */,
+			);
 			productName = NewsApp;
 			productReference = 11EB662728B77D450052FB05 /* NewsApp.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +182,9 @@
 				Base,
 			);
 			mainGroup = 11EB661E28B77D450052FB05;
+			packageReferences = (
+				11EB664D28B78AC40052FB05 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 11EB662828B77D450052FB05 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -141,10 +212,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11EB662F28B77D450052FB05 /* ViewController.swift in Sources */,
+				11EB664A28B785AC0052FB05 /* NetworkManager.swift in Sources */,
+				11EB665328B79C460052FB05 /* WebViewController.swift in Sources */,
+				11EB664C28B786830052FB05 /* NewsItem.swift in Sources */,
+				11EB662F28B77D450052FB05 /* NewsFeedViewController.swift in Sources */,
 				11EB662B28B77D450052FB05 /* AppDelegate.swift in Sources */,
+				11EB664828B7809D0052FB05 /* NewsTableViewCell.swift in Sources */,
 				11EB663528B77D450052FB05 /* NewsApp.xcdatamodeld in Sources */,
 				11EB662D28B77D450052FB05 /* SceneDelegate.swift in Sources */,
+				11EB665128B7968D0052FB05 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +438,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		11EB664D28B78AC40052FB05 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		11EB664E28B78AC40052FB05 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11EB664D28B78AC40052FB05 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		11EB663328B77D450052FB05 /* NewsApp.xcdatamodeld */ = {
