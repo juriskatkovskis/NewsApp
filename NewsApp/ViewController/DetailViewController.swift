@@ -11,6 +11,7 @@ import SDWebImage
 class DetailViewController: UIViewController {
     var item: Article?
     
+    
     @IBOutlet weak var newsImageView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var descLabel: UILabel!
@@ -25,7 +26,6 @@ class DetailViewController: UIViewController {
                
                newsImageView.sd_setImage(with: URL(string: item?.urlToImage ?? ""))
                
-               #warning("Save to core data")
            }
     
     
